@@ -1,4 +1,7 @@
 package com.zaurtregulov.spring.security.configuration;
 
-public class MySecurityInitializer extends AbstractSecurity{
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class MySecurityInitializer extends AbstractSecurityWebApplicationInitializer{
+
 }
