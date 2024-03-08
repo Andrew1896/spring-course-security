@@ -20,6 +20,5 @@ public class MyController {
     public String getInfoOnlyForManagers() {
         return "view_for_managers";
     }
-
 }
 
