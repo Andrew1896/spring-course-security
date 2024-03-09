@@ -20,5 +20,10 @@ public class MyController {
     public String getInfoOnlyForManagers() {
         return "view_for_managers";
     }
+
+//    @GetMapping("/manager_info")
+//    public String getInfoForAllManagers() {
+//        return "view_for_managers";
+//    }
 }
 
